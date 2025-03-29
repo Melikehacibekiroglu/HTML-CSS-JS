@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALİLİYE BELEDİYESİ YAZ SPOR OKULLARI KAYIT FORMU</title>
+</head>
+<body>
+    <h2> HALİLİYE BELEDİYESİ YAZ SPOR OKULLARI KAYIT FORMU</h2>
+    <form>
+       <td><label>T.C. NUMARASI:</label>
+        <input type="text" name="tc_no" style="margin-right: 50px;"></td>
+        <td style="text-align: right;"><label> KAYIT TARİHİ:</label>
+        <input type="datetime" name="kayit_tarihi"></td>
+        <h3> ÜYE BİLLGİELRİ</h3>
+        <label>Fotoğraf:</label>
+        <input type="file" name="fotograf" accept="image/*"><br><br>
+        <label> adı soyadı:</label>
+        <input type="text" name="adi_soyadi" ><br><br>
+        <label>doğum yeri ve tarihi</label>
+        <input type="text" name="dogum_yeri_tarihi"><br><br>
+        <label>okulu-sınıfı:</label>
+        <input type="text" name="okul_sinif"><br><br>
+        <label> ev adresi:</label>
+        <input type="text" name="ev_adresi"><br><br>
+        <label> cinsiyeti:</label>
+        <input type="radio" name="cinsiyet" value="bayan">bayan
+        <input type="radio" name="cinsiyet" value="bay" >bay<br><br>
+        <label> cep telefonu</label>
+        <input type="text" name="telefon"><br><br>
+        <label>E-Mail:</label>
+        <input type="email" name="email"><br><br>
+        <h3>VELİ BİLGİLERİ</h3>
+        <label>Adı Soyadı:</label>
+        <input type="text" name="veli_ad_soyad"><br><br>
+        
+        <label>Doğum Yeri ve Tarihi:</label>
+        <input type="text" name="veli_dogum_yeri_tarihi"><br><br>
+        
+        <label>Yakınlık Derecesi:</label>
+        <input type="text" name="yakınlık_derecesi"><br><br>
+        
+        <label>Mesleği:</label>
+        <input type="text" name="meslek"><br><br>
+        
+        <label>İş Adresi:</label>
+        <input type="text" name="is_adresi"><br><br>
+        
+        <label>Telefonu:</label>
+        <input type="text" name="veli_telefonu"><br><br>
+        
+        <label>E-Mail:</label>
+        <input type="email" name="veli_email"><br><br>
+        <h3>KATILMAK İSTEDİĞİNİZ BRANŞLAR</h3>
+        <input type="checkbox" name="brans" value="voleybol"> Voleybol<br>
+        <input type="checkbox" name="brans" value="basketbol"> Basketbol<br>
+        <input type="checkbox" name="brans" value="masa_tenisi"> Masa Tenisi<br>
+        <input type="checkbox" name="brans" value="atletizm"> Atletizm<br>
+        <input type="checkbox" name="brans" value="halk_oyunlari"> Halk Oyunları<br>
+        <input type="checkbox" name="brans" value="yuzme"> Yüzme (Sağlık Raporu ve Bone zorunludur.)<br>
+        <input type="checkbox" name="brans" value="kick_boks"> Kick Boks<br>
+        <input type="checkbox" name="brans" value="taekwondo"> Taekwondo<br>
+        <input type="checkbox" name="brans" value="boks"> Boks<br>
+        <input type="checkbox" name="brans" value="gures"> Güreş<br>
+        <input type="checkbox" name="brans" value="karate"> Karate<br>
+        <input type="checkbox" name="brans" value="wushu_kung"> Wushu Kung<br><br>
+        <h3>DİĞER BİLGİLER (HASTALIK VS.)</h3>
+        <textarea name="hastalik_bilgisi" rows="4" cols="50"></textarea><br><br>
+        
+        <label>Veli Adı Soyadı:</label>
+        <input type="text" name="veli_adi"><br><br>
+        
+        <label>İmza:</label>
+        <input type="text" name="imza"><br><br>
+        
+        <label>Tarih:</label>
+        <input type="date" name="tarih"><br><br>
+        
+        <input type="submit" value="Gönder">
+
+
+            
+    </form>
+</body>
+</html>
